@@ -1,6 +1,5 @@
 var menuBar = document.querySelectorAll(".menu-bar > li");
 var position = document.getElementById("featured").offsetTop;
-console.log(position);
 
 function color(num) {
     if(num == 0) {
