@@ -1,103 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-
-Name       : Skeleton 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130902
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>윤이원의 포트폴리오입니다.</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<link href="styles.css" rel="stylesheet">
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>윤이원의 포트폴리오입니다.</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div id="page" class="container">
-	<div id="header">
-		<div id="logo">
-			<img src="images/pic02.jpg" alt="" />
-			<h1><a href="#">윤이원</a></h1>
-			<span>풀스택 개발자가 되기 위해 노력합니다.</span>
-			<ul class="tact">
-				<li>
-					<a href="https://blog.naver.com/yej7298" target="_blank">https://blog.naver.com/yej7298</a>
-				</li>
-				<li>
-					<a>fullstackwon@gmail.com</a>
-				</li>
-			</ul>
-		</div>
-		<div id="menu">
-			<ul class="menu-bar">
-				<li class="current_page_item" onclick="color(0)"><a>About Me</a></li>
-				<li onclick="color(1)"><a>My Projects</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="main">
-		<div id="welcome">
-			<div class="title">
-				<h2>Abount Me</h2>
-				<span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span>
-			</div>
-			<ul class="style1">
-				<li class="first">
-					<p class="date">학력 <br>&<br> 경력</p>
-					<p>동양미래대학교 정보전자전공</p>
-					<p>한국방송통신대학교 컴퓨터과학전공</p>
-					<p>전자정부표준프레임워크 엔지니어 개발과정</p>
-				</li>
-				<li>
-					<p class="date">자격증</p>
-					<p>정보처리기사</p>
-					<p>컴퓨터활용능력2급</p>
-					<p>ITQ 파워포인트 A급</p>
-				</li>
-			</ul>
-		</div>
-		<div id="featured">
-			<div class="title">
-				<h2>프로젝트</h2>
-				<span class="byline">Integer sit amet aliquet pretium</span>
-			</div>
-			<ul class="style1">
-				<li class="first">
-					<p><b>HTML & CSS</b></p>
-					<h3>Amet sed volutpat mauris</h3>
-					<p><a href="#">Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Etiam non felis. Donec ut ante.</a></p>
-				</li>
-				<li>
-					<p><b>JavaScript</b></p>
-					<h3>Sagittis diam dolor amet</h3>
-					<p><a href="#">Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie. Donec leo, vivamus fermentum nibh in augue praesent congue rutrum.</a></p>
-				</li>
-				<li>
-					<p><b>Springframework</b></p>
-					<h3>Amet sed volutpat mauris</h3>
-					<p><a href="#">Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Etiam non felis. Donec ut ante.</a></p>
-				</li>
-				
-			</ul>
-		</div>
-		<div id="copyright">
-			<span>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a></span>
-			<span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</span>
-		</div>
-	</div>
-</div>
+    <header class="header">
+        <img src="images/pic02.jpg" alt="">
+        <h1>윤이원</h1>
+        <span>성실함으로 발전하는 개발자가 되겠습니다.</span>
+        <div class="header__menu">
+            <a class="header__menu__columns header__menu__columns__click" href="index.html">Introduce</a>
+            <a class="header__menu__columns" href="project.html">Projects</a>
+        </div>
+    </header>
+    <main class="introduce">
+        <div class="introduce__columns">
+            <h1 class="introduce__columns__title">CONTACT</h1>
+            <div class="introduce__columns__index">
+                <span><a href="mailto:fullstackwon@gmail.com">fullstackwon@gmail.com</a></span>
+                <span><a href="https://blog.naver.com/yej7298" target="__blacnk">https://blog.naver.com/yej7298</a></span>
+            </div>
+        </div>
+        <div class="introduce__columns">
+            <h1 class="introduce__columns__title">EDUCATION</h1>
+            <div class="introduce__columns__index">
+                <span>한국방송통신대학교 컴퓨터과학과 졸업</span>
+                <span>구디아카데미 전자정부표준프레임워크 수료</span>
+                <span>동양미래대학교 정보전자과 졸업</span>
+            </div>
+        </div>
+        <div class="introduce__columns">
+            <h1 class="introduce__columns__title">LICENSE</h1>
+            <div class="introduce__columns__index">
+                <span>정보처리기사</span>
+                <span>컴퓨터활용능력 2급</span>
+                <span>정보기술자격(ITQ)-한글파워포인트A급</span>
+            </div>
+        </div>
+        <div class="introduce__columns">
+            <h1 class="introduce__columns__title">SKILLS</h1>
+            <div class="introduce__columns__index introduce__skill">
+                <img src="images/skill__graph.jpg">
+                <ul>
+                    <li>A: 이론 및 기술을 충분히 숙지하고 적용할 수 있음.</li>
+                    <li>B: 이론의 숙지는 다소 미흡하지만 기술 적용에는 문제없음.</li>
+                    <li>C: 이론 및 기술이 다소 미흡하지만 책이나 매뉴얼을 통해 적용이 가능함.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
-
-<script src="portfolio.js"></script>
 </html>

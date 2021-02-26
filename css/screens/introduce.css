@@ -1,0 +1,35 @@
+.introduce {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 10%;
+}
+
+.introduce__columns {
+}
+
+.introduce__columns__title {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.introduce__columns__index {
+  padding: 10px 10px;
+}
+.introduce__columns__index span {
+  display: block;
+  flex-direction: row;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.introduce__skill img {
+  width: 600px;
+  height: 450px;
+  border: 1px solid rgba(197, 207, 152, 0.8);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.introduce__skill ul {
+  margin: 20px 0 0 20px;
+}
